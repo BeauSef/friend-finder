@@ -1,160 +1,82 @@
-var friendsArr = [
+var friends = [
     {
         "name":"Brittany",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROuwaUygWSnhT202XEMzih6WWOlzTgHXorXyuB41DhzVpr4mF5",
         "scores":[
-            5,
-            1,
             4,
-            4,
-            5,
             1,
+            3,
             2,
-            5,
             4,
-            1
+            2,
+            4,
+            5,
+            1,
+            3
           ]
       },
       {
         "name":"Mark",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://www.samishleather.com/wp-content/uploads/2018/08/Four-Brothers-Mark-Wahlberg-Jacket-450x600.jpg",
         "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
             2,
             5,
-            4,
-            1
+            3,
+            1,
+            2,
+            3,
+            2,
+            3,
+            2,
+            4
           ]
       },{
         "name":"Jennifer",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVrxgx4baD_egzgbGpX_G2eHd7doyjLQAcpZcz5yG1gy3FcTCnZg",
         "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
+            3,
+            2,
+            2,
+            3,
             2,
             5,
-            4,
-            1
+            3,
+            2,
+            3,
+            5
           ]
       },{
         "name":"The Rock",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://amp.businessinsider.com/images/5b462c57f4af9c1a008b45eb-750-563.jpg",
         "scores":[
             5,
-            1,
-            4,
-            4,
-            5,
-            1,
+            3,
             2,
-            5,
+            1,
             4,
-            1
+            3,
+            2,
+            4,
+            3,
+            5
           ]
       }, 
       {
         "name":"Margot",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://www.gannett-cdn.com/-mm-/a164b15f492f19c85e1fac79c788509be3033d79/c=0-9-1444-1934/local/-/media/Phoenix/2015/02/22/B9316329539Z.1_20150222201301_000_GHNA11250.1-0.jpg?width=534&height=712&fit=crop",
         "scores":[
             5,
             1,
-            4,
-            4,
+            3,
             5,
+            4,
+            3,
             1,
             2,
-            5,
-            4,
-            1
+            3,
+            5
           ]
       }, 
-      {
-        "name":"Zak",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
-          ]
-      }, 
-      {
-        "name":"Cameron",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
-          ]
-      }, 
-      {
-        "name":"Leonardo",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
-          ]
-      }, 
-      {
-        "name":"Rachael",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
-          ]
-      }, 
-      {
-        "name":"Donovan",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
-          ]
-      }
     ];
+
+    module.exports = friends;
