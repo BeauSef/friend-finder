@@ -218,6 +218,7 @@
                 $("#results").modal("toggle");
                 $("#quiz").toggle();
             });
+            var userInput = "";
             var bestMatch = 
             {Name:"",
              Photo: "", 
@@ -233,12 +234,12 @@
                  $("#question9").val(),
                  $("#question10").val(),
         ]};
-            $.ajax ("/api/friends", bestMatch)
             
-            
-            app.get('/api/friends', function(req,res){
-                            res.sendFile(path.join(__dirname, "../data/friends.js"))
-                        });
+            $.post('/api/friends', bestMatch) 
+                    .done(function(data){
+                        $("#userName").html(userInput)
+                        $("#userPhoto").attr(bestMatch)
+                    })
         })
     </script>
 </body>
