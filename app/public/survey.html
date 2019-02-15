@@ -235,7 +235,7 @@
                  $("#question10").val(),
         ]};
             
-            $.post('/api/friends', bestMatch) 
+        app.post('/api/friends', bestMatch) 
                     .done(function(data){
                         $("#userName").html(userInput)
                         $("#userPhoto").attr(bestMatch)
